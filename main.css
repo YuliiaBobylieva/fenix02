@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #1C1C1C;
+}
+/* шапка */
+header {
+	background: #2D2D2D;
+	height: 120px;
+}
+/* кнопки */
+.language {
+	width: 200px;
+	height: 80px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	left: 30px;
+	top: 20px;
+}
+.exit {
+	width: 200px;
+	height: 80px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	right: 30px;
+	top: 20px;
+}
+.about_us {
+	width: 200px;
+	height: 80px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	left: 270px;
+	top: 20px;
+}
+.per {
+	width: 200px;
+	height: 80px;
+	border: none;
+	background: #332B2B;
+	color: #EBF1ED;
+	border-radius: 20px; 
+	position: absolute;
+	top: 500px;
+	left: 25%;
+}
+.rag {
+	width: 200px;
+	height: 80px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	top: 20px;
+	left: 510px;
+}
+/* відео */
+.video_1 {
+	width: 700px;
+	position: absolute;
+	top: 120px;
+	left: 25%;
+}
+/* 'Неон' */
+.language {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+}
+.language:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+.exit {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+}
+.exit:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+.about_us {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+}
+.about_us:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+.rag {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+}
+.rag:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}

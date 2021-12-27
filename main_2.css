@@ -1,0 +1,281 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #1C1C1C;
+}
+/* Шапка */
+header {
+	background: #2D2D2D;
+	height: 90px;
+}
+/* Кнопки */
+
+.choise {
+	width: 250px;
+	height: 60px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: relative;
+
+	
+	
+}
+.about_us {
+	width: 150px;
+	height: 60px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+
+
+	
+
+}
+.per {
+	width: 150px;
+	height: 60px;
+	border: none;
+	background: #332B2B;
+	color: #EBF1ED;
+	border-radius: 20px; 
+	position: absolute;
+	top: 500px;
+	left: 5%;
+	
+}
+.rag {
+	width: 150px;
+	height: 60px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+
+	
+}
+
+
+
+/* Текст */
+
+.next_page {
+	border: none;
+	width: 400px;
+	height: 100px;
+	border: none;
+	background: #332B2B;
+	color: #EBF1ED;
+	border-radius: 20px; 
+	position: absolute;
+	top: 650px;
+	left: 25%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 50px;
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+	outline: none; 
+}
+.next_page:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+
+/* 'Неон' */
+
+.choise {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+}
+.choise:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+.about_us {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+}
+.about_us:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+.rag {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+}
+.rag:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+
+.rag1 {
+	width: 180px;
+	height: 60px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	top: 20px;
+	left: 560px;
+}
+
+.rag1 {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+}
+
+.rag1:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+
+
+#div{
+	background-image: url(изображение_viber_2021-09-17_16-01-21-990.jpg);
+	background-size: cover;
+	height: 900px;
+	width: 800px;
+	text-align: center;
+	margin: auto;
+	border-radius: 65px;
+	
+
+}
+
+
+.text_1 {
+
+	width: 700px;
+	color: black;
+	font-size: 25px;
+	
+	top: 48%;
+	left: 25%;
+	font-family: 'Comfortaa', cursive;
+	background: rgb(253, 208, 0);
+	padding-bottom: 118px;
+	border-radius: 30px;
+	
+	margin:-650px auto auto auto;
+}
+
+
+
+
+
+.select1{
+	
+	position: absolute;
+	width: 230px;
+	height: 125px;
+	background: grey;
+
+	border-radius: 20px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	
+	transition: 1s;
+	font-family: 'Comfortaa', cursive;
+	font-size: 14px;
+	top: 145px;
+}
+
+
+.select2{
+	
+	position: absolute;
+	width: 230px;
+	height: 180px;
+	background: grey;
+
+	border-radius: 20px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	
+	transition: 1s;
+	font-family: 'Comfortaa', cursive;
+	font-size: 14px;
+	top: 145px;
+}
+
+.menu{
+	display: flex;
+		position: absolute;
+		
+  }
+  
+  .menu li{
+	
+	border-radius: 20px;
+	width: 200px;
+	list-style: none;
+
+	position: relative;
+	margin: 15px;
+	
+  }
+  
+  .menu a {
+	border-radius: 20px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	transition: all .5s;
+  }
+  
+  
+.select1 a:hover {
+	background: #505057;
+	
+  }
+  
+    
+.select2 a:hover {
+	background: #505057;
+	
+  }
+  .menu ul {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	display: none;
+	padding: 0;
+  }
+  
+  .menu li:hover > ul {
+	display: block;
+	background: #312b2b;
+
+  }
+  
+  .menu ul ul {
+	display: none;
+	top: 0;
+	left: 100%;
+  }
+
+  
+
+
+ 

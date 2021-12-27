@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #1C1C1C;
+	text-align: center;
+}
+/* Шапка */
+header {
+	background: #2D2D2D;
+	height: 100px;
+	/*width: 1500px;*/
+}
+/* Кнопки */
+.language {
+	width: 150px;
+	height: 60px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	/*left: 30px;*/
+	top: 20px;
+	left: 200px;
+}
+.exit {
+	width: 150px;
+	height: 60px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	left: 1300px;
+
+	top: 20px;
+	
+}
+.about_us {
+	width: 150px;
+	height: 60px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	left: 380px;
+	top: 20px;
+	
+	
+
+
+}
+.per {
+	width: 150px;
+	height: 60px;
+	border: none;
+	background: #332B2B;
+	color: #EBF1ED;
+	border-radius: 20px; 
+	position: absolute;
+	top: 500px;
+	left: 5%;
+	
+}
+.rag {
+	width: 150px;
+	height: 60px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	
+}
+/* 'Неон' */
+.language {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+}
+.language:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+.exit {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+}
+.exit:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+.about_us {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+}
+.about_us:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+.rag {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+}
+.rag:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+
+/* Скроллбар */
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #B9B9B9;
+}
+::-webkit-scrollbar-thumb {
+	background: #7B7B7B;
+}
+/* Підготовка */
+/* №1 */
+.vid {
+	position: absolute;
+	top: 120px;
+	left: 20px;
+	height: 400px;
+	width: 600px;
+}
+.exercise {
+	width: 500px;
+	
+	margin: 400px auto 0 auto;
+}
+
+
+
+.exercise3 {
+	width: 500px;
+	
+	background-image: url('img/img3.jpg');
+	background-size: cover;
+	
+	margin: 0 auto 0 auto;
+}
+
+.exercise4 {
+	width: 500px;
+	
+	background-image: url('img/img3.jpg');
+	background-size: cover;
+	
+	margin: 0 auto 0 auto;
+}
+
+.next_page {
+	border: none;
+	width: 200px;
+	height: 100px;
+	border: none;
+	background: #332B2B;
+	color: #EBF1ED;
+	border-radius: 20px; 
+	position: absolute;
+	top: 150px;
+	left: 750px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 34px;
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+	outline: none; 
+}
+.next_page:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+.exercise1 {
+	width: 500px;
+	
+	margin: auto auto 0 auto;
+}
+.exercise2 {
+	width: 500px;
+	
+	margin: auto auto 0 auto;
+}

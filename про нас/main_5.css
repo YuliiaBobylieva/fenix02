@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #1C1C1C;
+}
+/* шапка */
+header {
+	background: #2D2D2D;
+	height: 100px;
+	width: auto;
+}
+/* Кнопки */
+.rag {
+	width: 200px;
+	height: 50px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	top: 20px;
+	left: 510px;
+}
+.language {
+	width: 200px;
+	height: 50px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	left: 30px;
+	top: 20px;
+}
+.exit {
+	width: 200px;
+	height: 50px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	right: 30px;
+	top: 20px;
+}
+.about_us {
+	width: 200px;
+	height: 50px;
+	border: none;
+	background: #1F1B1B;
+	color: #EBF1ED;
+	border-radius: 20px;
+	position: absolute;
+	left: 270px;
+	top: 20px;
+}
+/* 'Неон' */
+.language {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+}
+.language:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+.exit {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+}
+.exit:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+.about_us {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+}
+.about_us:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+.rag {
+	box-shadow: 0 0 20px 5px #3CEBA2;
+	transition: 1s;
+}
+.rag:hover {
+	box-shadow: 0 0 20px 5px #AE6EF6;
+}
+/* Скроллбар */
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #B9B9B9;
+}
+::-webkit-scrollbar-thumb {
+	background: #7B7B7B;
+}
+/* text */
+.header {
+	font-size: 32px;
+	color: #6EDD64;
+	position: absolute;
+	left: 700px;
+	top: 140px;
+	width: 500px;
+	height: 200px;
+}
+.text {
+	font-size: 25px;
+	width: 600px;
+	height: 500px;
+	color: #6EDD64;
+	position: absolute;
+	left: 650px;
+	top: 300px;
+}
+.text_2 {
+	position: absolute;
+	top: 600px;
+	left: 500px;
+	font-size: 32px;
+	color: #6EDD64;
+}
+.text_3 {
+	font-size: 25px;
+	width: 600px;
+	height: 500px;
+	color: #6EDD64;
+	position: absolute;
+	left: 700px;
+	top: 750px;
+}
+.text_4 {
+	font-size: 25px;
+	width: 600px;
+	height: 500px;
+	color: #6EDD64;
+	position: absolute;
+	left: 200px;
+	top: 1000px;
+}
+.text_5 {
+	font-size: 25px;
+	width: 250px;
+	height: 100px;
+	color: #6EDD64;
+	position: absolute;
+	left: 900px;
+	top: 1300px;
+}
+/* IMG */
+.reg {
+	width: 500px;
+	position: absolute;
+	top: 130px;
+	left: 50px;
+}
+.pag {
+	width: 300px;
+	position: absolute;
+	top: 700px;
+	left: 150px;
+}
+.geg {
+	width: 300px;
+	position: absolute;
+	top: 1000px;
+	left: 700px;
+}
+.rpt {
+	width: 300px;
+	position: absolute;
+	top: 1200px;
+	left: 200px;
+}
